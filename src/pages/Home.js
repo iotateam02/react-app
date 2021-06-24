@@ -64,7 +64,7 @@ function Home() {
           </Grid>
         ) : (
           <div>
-            <h1 className="page-heading">Categories</h1>
+            <h1 className="page-heading">Categories updated....</h1>
             <ItemsCarousel
               items={categoryState.categoryData.map((x) => ({
                 id: x.objectId,
